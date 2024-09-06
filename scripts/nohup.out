@@ -1,0 +1,4 @@
+
+(arandr:24655): Gdk-CRITICAL **: 13:40:10.485: gdk_atom_intern: assertion 'atom_name != NULL' failed
+
+(arandr:24655): Gdk-CRITICAL **: 13:40:10.485: gdk_atom_intern: assertion 'atom_name != NULL' failed
