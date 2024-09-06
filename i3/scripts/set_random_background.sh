@@ -22,5 +22,5 @@ while true; do
   fi
 
   # Wait for 30 seconds before changing the background again
-  sleep 30
+  sleep 300
 done
