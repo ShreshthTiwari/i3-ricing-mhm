@@ -185,10 +185,13 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-  #default i3 bar
-  #status_command i3status
+#bar {
+#  status_command i3status
 
+#  position bottom
+#}
+
+bar {
   #my custom i3 bar
   font pango:FontAwesome 10
   status_command ~/.config/i3/scripts/i3bar_status.sh
@@ -211,3 +214,6 @@ exec_always --no-startup-id xrandr --output eDP-1 --primary --mode 1920x1080 --p
 #bindsym $mod+m exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
 bindsym $mod+m exec --no-startup-id pactl set-source-volume @DEFAULT_SOURCE@ +10%
 bindsym $mod+shift+m exec --no-startup-id pactl set-source-volume @DEFAULT_SOURCE@ -10%
+
+#make inactive windows transclucent
+exec --no-startup-id picom --config ~/.config/picom/picom.conf
