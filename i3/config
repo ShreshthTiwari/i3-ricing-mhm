@@ -222,7 +222,7 @@ bindsym $mod+shift+m exec --no-startup-id pactl set-source-volume @DEFAULT_SOURC
 exec --no-startup-id picom --config ~/.config/picom/picom.conf
 
 #screen shot short key flameshot
-bindsym $mod+p exec flameshot gui
+bindsym $mod+p exec --no-startup-id flameshot gui
 
 # Set window border colors
 client.focused          #000000 #000000 #ffffff #000000
