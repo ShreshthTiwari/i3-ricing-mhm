@@ -224,8 +224,8 @@ exec --no-startup-id picom --config ~/.config/picom/picom.conf
 #screen shot short key flameshot
 bindsym $mod+p exec flameshot gui
 
-# Window border color settings
-client.focused          #000000 #000000 #000000 #000000
-client.unfocused        #000000 #000000 #000000 #000000
-client.focused_inactive #000000 #000000 #000000 #000000
-client.urgent           #000000 #000000 #000000 #000000
+# Set window border colors
+client.focused          #000000 #000000 #ffffff #000000
+client.unfocused        #333333 #333333 #ffffff #333333
+client.focused_inactive #333333 #333333 #ffffff #333333
+client.urgent           #ffff00 #ffff00 #000000 #ffff00
