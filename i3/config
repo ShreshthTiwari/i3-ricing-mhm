@@ -220,3 +220,6 @@ bindsym $mod+shift+m exec --no-startup-id pactl set-source-volume @DEFAULT_SOURC
 
 #make inactive windows transclucent
 exec --no-startup-id picom --config ~/.config/picom/picom.conf
+
+#screen shot short key flameshot
+bindsym $mod+p exec flameshot gui
