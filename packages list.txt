@@ -4,3 +4,4 @@ polybar
 fontawesome fonts
 noto sans fonts
 arandr
+dunst
