@@ -1,5 +1,5 @@
 [global]
-    font = Sans 14
+    font = Sans 12
     frame_width = 2
     separator_height = 2
     padding = 8
