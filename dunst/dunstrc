@@ -1,0 +1,23 @@
+[global]
+    font = Sans 14
+    frame_width = 2
+    separator_height = 2
+    padding = 8
+    # Set width and position here
+    width = 300
+    origin = top-right
+
+[urgency_low]
+    background = "#000000"
+    foreground = "#ffffff"
+    frame_color = "#ffffff"
+
+[urgency_normal]
+    background = "#000000"
+    foreground = "#ffffff"
+    frame_color = "#ffffff"
+
+[urgency_critical]
+    background = "#ff0000"
+    foreground = "#ffffff"
+    frame_color = "#ffffff"
