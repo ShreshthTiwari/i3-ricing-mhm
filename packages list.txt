@@ -1,0 +1,6 @@
+xrandr
+picom
+polybar
+fontawesome fonts
+noto sans fonts
+arandr

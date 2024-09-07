@@ -229,3 +229,16 @@ client.focused          #000000 #000000 #ffffff #000000
 client.unfocused        #333333 #333333 #ffffff #333333
 client.focused_inactive #333333 #333333 #ffffff #333333
 client.urgent           #ffff00 #ffff00 #000000 #ffff00
+
+# Resize windows with mouse dragging
+bindsym $mod+Button1 floating toggle move
+bindsym $mod+Button3 resize
+
+# Set inner gaps between windows
+gaps inner 8
+
+# Set outer gaps between windows and the screen edges
+gaps outer 0
+
+# Remove borders for all windows
+#for_window [class=".*"] border none
