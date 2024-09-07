@@ -208,10 +208,10 @@ exec_always --no-startup-id ~/.config/i3/launch_polybar.sh
 bindsym $mod+shift+x exec i3lock
 
 # set a random background
-exec_always --no-startup-id ~/.config/i3/scripts/set_random_background.sh
+exec --no-startup-id ~/.config/i3/scripts/set_random_background.sh
 
 #multi monitor support
-exec_always --no-startup-id xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1 --mode 1920x1080 --pos 1920x0 --rotate normal
+exec_always --no-startup-id xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --rate 55  --output HDMI-1 --mode 1920x1080 --pos 1920x0 --rotate normal --rate 55
 
 #mic toggle
 #bindsym $mod+m exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
