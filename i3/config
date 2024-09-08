@@ -242,3 +242,6 @@ gaps outer 0
 
 # Remove borders for all windows
 #for_window [class=".*"] border none
+
+# Enable Reverse Scrolling
+exec --no-startup-id xinput set-prop 10 "libinput Natural Scrolling Enabled" 1

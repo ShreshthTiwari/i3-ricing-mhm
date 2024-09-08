@@ -1,8 +1,8 @@
 [global]
-    font = Sans 12
+    font = Sans 10
     frame_width = 2
     separator_height = 2
-    padding = 8
+    padding = 4
     # Set width and position here
     width = 300
     origin = top-right
