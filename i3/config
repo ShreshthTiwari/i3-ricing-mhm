@@ -235,7 +235,7 @@ bindsym $mod+Button1 floating toggle move
 bindsym $mod+Button3 resize
 
 # Set inner gaps between windows
-gaps inner 8
+gaps inner 6
 
 # Set outer gaps between windows and the screen edges
 gaps outer 0
