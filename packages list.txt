@@ -1,7 +1,11 @@
-xrandr
+x11-xserver-utils
+arandr
 picom
 polybar
-fontawesome fonts
-noto sans fonts
-arandr
 dunst
+font-manager
+xorg
+i3
+fonts-font-awesome
+fonts-noto
+pulseaudio

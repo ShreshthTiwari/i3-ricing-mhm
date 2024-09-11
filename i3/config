@@ -245,3 +245,6 @@ gaps outer 0
 
 # Enable Reverse Scrolling
 exec --no-startup-id xinput set-prop 10 "libinput Natural Scrolling Enabled" 1
+
+# Enable pulse audio
+exec --no-startup-id pulseaudio --start
