@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory containing your backgrounds
-BG_DIR="/media/shreshth/Data/Backgrounds"
+BG_DIR="/home/shreshth/Pictures/Backgrounds"
 
 # Number of images
 MAX_IMAGES=768

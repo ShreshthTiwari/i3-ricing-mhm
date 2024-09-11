@@ -9,3 +9,7 @@ i3
 fonts-font-awesome
 fonts-noto
 pulseaudio
+feh
+pavucontrol
+alsa-utils
+dbus-x11
