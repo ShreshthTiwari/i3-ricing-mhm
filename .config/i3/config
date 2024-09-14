@@ -251,3 +251,12 @@ exec --no-startup-id pulseaudio --start
 
 #open xfce terminal with mod+enter
 bindsym $mod+enter exec --no-startup-id xfce4-terminal
+
+# Brightness up-down (F4)
+bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
+bindsym XF86MonBrightnessUp exec brightnessctl set +10%
+
+# Enable Tap to click on touchpad
+exec --no-startup-id xinput set-prop 10 "libinput Tapping Enabled" 1
+# Enable reverse scroll on touchpad
+exec --no-startup-id xinput set-prop 10 "libinput Natural Scrolling Enabled" 1
