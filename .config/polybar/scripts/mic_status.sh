@@ -20,4 +20,4 @@ else
 fi
 
 # Output the status with volume percentage
-echo " | $MIC_ICON${MIC_VOLUME}% | "
+echo " | $MIC_ICON ${MIC_VOLUME}% | "

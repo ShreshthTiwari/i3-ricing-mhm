@@ -1,11 +1,9 @@
-#!/bin/bash
-
 # Get the current brightness percentage
 BRIGHTNESS=$(brightnessctl get)
 MAX_BRIGHTNESS=$(brightnessctl max)
 PERCENT=$(echo "$BRIGHTNESS * 100 / $MAX_BRIGHTNESS" | bc)
 
-# Choose an icon based on brightness level
+# Choose an icon based on brightness level, specifying the font index
 if [ "$PERCENT" -le 30 ]; then
     ICON=""
 elif [ "$PERCENT" -le 70 ]; then
@@ -15,4 +13,5 @@ else
 fi
 
 # Output the icon and percentage together
-echo " | $ICON $PERCENT% "
+# echo " | $ICON $PERCENT% "
+echo " | B: $PERCENT%"
