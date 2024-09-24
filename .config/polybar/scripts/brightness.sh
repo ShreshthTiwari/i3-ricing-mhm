@@ -14,4 +14,4 @@ fi
 
 # Output the icon and percentage together
 # echo " | $ICON $PERCENT% "
-echo " | B: $PERCENT%"
+echo " | B: $PERCENT% "
