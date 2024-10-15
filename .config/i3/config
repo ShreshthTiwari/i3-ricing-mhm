@@ -202,7 +202,7 @@ bindsym $mod+r mode "resize"
 
 # ----------------------- custom ricing -----------------------------
 #launch polybar
-exec_always --no-startup-id ~/.config/i3/launch_polybar.sh
+exec_always --no-startup-id ~/.config/i3/scripts/launch_polybar.sh
 
 # lock system
 bindsym $mod+shift+x exec i3lock
@@ -260,3 +260,8 @@ bindsym XF86MonBrightnessUp exec brightnessctl set +10%
 exec --no-startup-id xinput set-prop 10 "libinput Tapping Enabled" 1
 # Enable reverse scroll on touchpad
 exec --no-startup-id xinput set-prop 10 "libinput Natural Scrolling Enabled" 1
+
+bindsym $mod+Shift+b exec --no-startup-id ~/.config/i3/scripts/disable_polybar.sh
+bindsym $mod+b exec --no-startup-id ~/.config/i3/scripts/launch_polybar.sh
+
+bindsym $mod+t exec --no-startup-id xfce4-terminal
