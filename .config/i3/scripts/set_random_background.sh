@@ -4,7 +4,7 @@
 BG_DIR="/home/shreshth/Pictures/Backgrounds"
 
 # Number of images
-MAX_IMAGES=768
+MAX_IMAGES=769
 
 while true; do
   # Generate a random number between 1 and MAX_IMAGES
@@ -21,6 +21,6 @@ while true; do
     echo "Background file $IMAGE_FILE does not exist."
   fi
 
-  # Wait for 30 seconds before changing the background again
+  # Wait for 5 minutes (300 seconds) before changing the background again
   sleep 300
 done
